@@ -1,0 +1,81 @@
+# Gradle files
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/
+
+# Local configuration files
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries/
+/.idea/caches/
+/.idea/modules.xml
+/.idea/assetWizardSettings.xml
+/.idea/codestyle.xml
+/.idea/vcs.xml
+/.idea/jsLibraryMappings.xml
+/.idea/kotlin/
+.idea/copyright/
+
+# Keystore files
+*.jks
+*.keystore
+
+# Android Studio specific
+/.idea/gradle.xml
+/.idea/misc.xml
+/.idea/dictionaries/
+/.idea/description.*
+
+# MacOS and Linux specific
+.DS_Store
+*.swp
+
+# build output directories
+/captures/
+/.externalNativeBuild
+/.cxx
+/local.gradle
+*.iml
+
+# Kotlin/Android related
+build/
+*/build/
+out/
+*/out/
+
+# Gradle cache files
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle.properties
+
+# Log files
+*.log
+
+# Temporary files
+*.temp
+*.tmp
+*.orig
+
+# JetBrains project files
+.idea/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/gradle.xml
+.idea/**/libraries/
+.idea/**/dictionaries/
+.idea/**/vcs.xml
+.idea/.name
+
+# Exclude all `.log` files from version control
+*.log
+
+# Miscellaneous
+*.class
+*.war
+*.ear
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
