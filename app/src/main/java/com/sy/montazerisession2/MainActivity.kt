@@ -48,6 +48,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+        println("Hello from branch 1!")
         setContent {
             MontazeriSession2Theme {
                 Scaffold(
